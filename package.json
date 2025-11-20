@@ -1,0 +1,35 @@
+{
+  "name": "devconnect2025",
+  "version": "1.0.0",
+  "description": "Devconnect 2025",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "type": "module",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "node": "hardhat node"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ignition": "^3.0.5",
+    "@nomicfoundation/hardhat-ignition-viem": "^3.0.5",
+    "@nomicfoundation/hardhat-keystore": "^3.0.3",
+    "@nomicfoundation/hardhat-network-helpers": "^3.0.3",
+    "@nomicfoundation/hardhat-node-test-runner": "^3.0.7",
+    "@nomicfoundation/hardhat-toolbox-viem": "^5.0.1",
+    "@nomicfoundation/hardhat-verify": "^3.0.7",
+    "@nomicfoundation/hardhat-viem": "^3.0.1",
+    "@nomicfoundation/hardhat-viem-assertions": "^3.0.4",
+    "@types/node": "^24.10.1",
+    "chai": "^6.2.1",
+    "hardhat": "^3.0.15",
+    "solc": "^0.8.30",
+    "typescript": "^5.9.3",
+    "viem": "^2.39.3"
+  }
+}
