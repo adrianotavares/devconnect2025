@@ -1,0 +1,57 @@
+### Remix
+.deps
+.deploys
+
+### Node.js
+node_modules/
+.env
+.DS_Store
+
+### Hardhat/Foundry
+cache/
+artifacts/
+broadcast/
+coverage/
+coverage.json
+typechain/
+
+### Remix IDE
+remix-projects/
+remixd-folder-access.json
+remixd-folder-share.json
+remixd-sessions.json
+
+### Solidity
+*.sol.ast.json
+*.sol.ast.compact.json
+
+### VimEditor
+*.swp
+*.swo
+
+### IDE
+.idea/
+.vscode/
+*.iml
+
+### MacOS
+**/.DS_Store
+
+### Logs
+*.log
+logs/
+
+### Build
+dist/
+build/
+lib/
+out/
+
+### Testing
+test-results/
+nyc_output/
+
+### Misc
+*.seed
+*.json (except package.json, hardhat.config.js, foundry.toml)
+!*.json
